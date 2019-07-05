@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="271.0" prefWidth="553.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane id="painelLogin" layoutX="14.0" layoutY="7.0" prefHeight="264.0" prefWidth="372.0" AnchorPane.bottomAnchor="8.0" AnchorPane.leftAnchor="8.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="8.0">
+         <children>
+            <ImageView disable="true" fitHeight="270.0" fitWidth="553.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+               <effect>
+                  <ColorAdjust brightness="1.0" contrast="1.0" hue="1.0" saturation="1.0">
+                     <input>
+                        <DropShadow />
+                     </input>
+                  </ColorAdjust>
+               </effect>
+            </ImageView>
+            <ImageView fitHeight="262.0" fitWidth="291.0" layoutX="243.0" opacity="0.24" pickOnBounds="true">
+               <image>
+                  <Image url="@../../../../../../../../../Pictures/primeira%20empresa/logotipo/LogoTS-1.jpg" />
+               </image>
+               <effect>
+                  <Blend mode="RED" />
+               </effect>
+            </ImageView>
+            <JFXTextField id="txtId" layoutX="217.0" layoutY="103.0" />
+            <JFXPasswordField id="txtSenha" layoutX="217.0" layoutY="148.0" />
+            <Label layoutX="175.0" layoutY="114.0" text="E-mail:" />
+            <Label layoutX="176.0" layoutY="161.0" text="Senha:" />
+            <JFXButton id="btnEntrar" fx:id="btnEntrar" layoutX="175.0" layoutY="204.0" text="Entrar" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></JFXButton>
+            <JFXButton id="btnCancelar" fx:id="btnCancelar" layoutX="300.0" layoutY="204.0" text="Cancelar">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </JFXButton>
+         </children>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <Blend mode="MULTIPLY" />
+         </effect>
+      </AnchorPane>
+   </children>
+</AnchorPane>
